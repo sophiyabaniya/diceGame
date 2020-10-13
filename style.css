@@ -1,0 +1,171 @@
+#body{
+    background-image: url("./picture/dice.jpg");
+    opacity:inherit;
+    /* background-size: cover; */
+    
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: transparent;
+}
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: cursive;
+  font-size: 17px;
+}
+.navbar a.right{
+    float: right;
+}
+.navbar a.right:hover {
+  background-color: beige;
+  color: black;
+}
+.navbar a.brand {
+ 
+  color: darkgray;
+  color: white;
+    font-family:fantasy;
+    font-size: 30px;
+}
+
+
+.rules{
+    float: center;
+    position: fixed;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 10%;
+    background-color: beige;
+    padding: 5%;
+    color: black;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 900;
+    display: none;
+}
+
+.box{
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 8%;
+    
+    color: darkgoldenrod;
+}
+
+.player1{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 450px;
+    background-color: white;
+    align-content: center;
+    text-align: center;
+}
+.player2{
+    float: right;
+    width: 50%;
+    padding: 10px;
+    height: 450px;
+    background-color: white;
+    align-content: center;
+    text-align: center;
+    
+}
+.active{
+    background-color: lightgray;
+    
+}
+#reset{
+  position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+    
+    background-color:antiquewhite;
+  color: saddlebrown;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+    font-weight: bold;
+  border: none;
+  font-size: 20px;
+
+}
+#reset:hover{
+    background-color:bisque;
+}
+#dicepicture{
+    
+    position: absolute;
+    left: 50%;
+    top: 250px;
+    transform: translateX(-50%);
+    height: 100px;
+    box-shadow: 0px 20px 100px rgba(0, 0, 0, 0.10);
+}
+#roll{
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translateX(-50%);
+    background-color:antiquewhite;
+  color: saddlebrown;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+    font-weight: bold;
+  border: none;
+  font-size: 20px;
+}
+#roll:hover{
+    background-color:bisque;
+}
+.scorebox{
+    height: 50px;
+    width: 100px;
+    background-color: beige;
+    text-align: center;
+    padding: inherit;
+    font-weight: bold;
+    font-size: 30px;
+    
+    
+}
+.score1{
+    
+}
+.score2{
+    
+}
+.vid{
+    float: center;
+    display: none;
+    height: 80%;
+    width: 70%;
+    opacity: 0.5;
+    left: 15%;
+    right: 10%;
+    top: 10%;
+    position: absolute;
+    
+    
+}
+.vidtext{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    color: white;
+    display: none;
+    font-size: 50px;
+    font-family: cursive;
+}
